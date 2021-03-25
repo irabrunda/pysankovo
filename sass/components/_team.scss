@@ -1,0 +1,94 @@
+.team__title {
+  font-family: $main-font;
+}
+  
+.team {
+  background-color: $main-bg-color;
+}
+  
+.team h3 {
+  font-family: $main-font;
+  margin-bottom: 10px;
+}
+  
+.team p {
+  font-family: $main-font;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  color: $primary-text-color;
+    
+}  
+.team__list {
+  display: block;
+  
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  } 
+}
+  
+.team__member {
+  width: 100%;
+  background-color: $primary-white-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+    height: 536px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 0 15px;
+    height: 428px;
+  }        
+}
+ 
+.team__card {
+  text-align: center;
+  padding: 30px 32px;
+}
+  
+.socials {
+  display: flex;
+  justify-content: center;
+}
+  
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: $main-icons-color;
+
+  transition: color $duration-time $timing-function, background-color $duration-time $timing-function;
+}
+  
+.social-icon {
+  fill: currentColor;
+}
+  
+.social-link:hover,
+.social-link:focus {
+  background-color: $accent-color;
+  color: $primary-white-color;
+}
+  
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}

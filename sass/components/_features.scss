@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px) {
+  .feature__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+  
+.feature__thumb {
+  width: 100%;
+  
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }    
+}
+  
+.feature__thumb::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $main-bg-color;    
+}
+  
+.antenna::before {
+  background-image: url(../images/icons/antenna.svg);
+}
+  
+.clock::before {
+  background-image: url(../images/icons/clock.svg);
+}
+  
+.diagram::before {
+  background-image: url(../images/icons/diagram.svg);
+}
+  
+.astronaut::before {
+  background-image: url(../images/icons/astronaut.svg);
+}
+
+.feature__thumb h3 {
+  margin-bottom: 10px;
+
+  font-family: $main-font;
+  text-transform: uppercase;
+  color: $title-color;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }    
+}
+  
+.feature__thumb p {
+  font-family: $main-font;
+  color: $primary-text-color;
+
+  @media screen and (max-width: 480px) {
+    text-align: justify;
+  }
+}

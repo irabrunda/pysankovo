@@ -32,21 +32,30 @@
 }
   
 .antenna::before {
-  background-image: url(../images/icons/antenna.svg);
-}
-  
+  background-image: url(../images/icons/egg.svg);
+}  
 .clock::before {
-  background-image: url(../images/icons/clock.svg);
-}
-  
+  background-image: url(../images/icons/online.svg);
+}  
 .diagram::before {
-  background-image: url(../images/icons/diagram.svg);
-}
-  
+  background-image: url(../images/icons/contest.svg);
+}  
 .astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
+  background-image: url(../images/icons/instal.svg);
 }
 
+.contest-date::before {
+  background-image: url(../images/icons/calendar.svg);
+}  
+.contest-time::before {
+  background-image: url(../images/icons/time.svg);
+}  
+.contest-location::before {
+  background-image: url(../images/icons/location.svg);
+}  
+.contest-age::before {
+  background-image: url(../images/icons/kids.svg);
+}
 .feature__thumb h3 {
   margin-bottom: 10px;
 

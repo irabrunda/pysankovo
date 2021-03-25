@@ -189,7 +189,7 @@ p {
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #644438;
 }
 
 @media screen and (min-width: 768px) {
@@ -208,7 +208,7 @@ p {
 }
 
 .web {
-  color: #2196f3;
+  color: #d3a202;
 }
 
 .menu-container {
@@ -270,7 +270,7 @@ p {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: #644438;
   padding-bottom: 8px;
 }
 
@@ -283,7 +283,7 @@ p {
 }
 
 .main-nav a:hover, .main-nav a:focus {
-  color: #2196f3;
+  color: #d3a202;
 }
 
 .main-nav .main-nav__item:not(:last-child) {
@@ -341,12 +341,12 @@ p {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: #644438;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover, .contacts-link:focus {
-  color: #2196f3;
+  color: #d3a202;
 }
 
 @media screen and (min-width: 768px) {
@@ -364,7 +364,7 @@ p {
 }
 
 .link.current {
-  color: #2196f3;
+  color: #d3a202;
 }
 
 .link.current::after {
@@ -376,7 +376,7 @@ p {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: #2196f3;
+  background-color: #d3a202;
 }
 
 .contacts-link__icon {
@@ -394,7 +394,7 @@ p {
 }
 
 .menu-button:hover, .menu-button:focus {
-  fill: #2196f3;
+  fill: #d3a202;
 }
 
 @media screen and (min-width: 768px) {
@@ -502,7 +502,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: #d3a202;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -544,26 +544,42 @@ p {
 }
 
 .antenna::before {
-  background-image: url(../images/icons/antenna.svg);
+  background-image: url(../images/icons/egg.svg);
 }
 
 .clock::before {
-  background-image: url(../images/icons/clock.svg);
+  background-image: url(../images/icons/online.svg);
 }
 
 .diagram::before {
-  background-image: url(../images/icons/diagram.svg);
+  background-image: url(../images/icons/contest.svg);
 }
 
 .astronaut::before {
-  background-image: url(../images/icons/astronaut.svg);
+  background-image: url(../images/icons/instal.svg);
+}
+
+.contest-date::before {
+  background-image: url(../images/icons/calendar.svg);
+}
+
+.contest-time::before {
+  background-image: url(../images/icons/time.svg);
+}
+
+.contest-location::before {
+  background-image: url(../images/icons/location.svg);
+}
+
+.contest-age::before {
+  background-image: url(../images/icons/kids.svg);
 }
 
 .feature__thumb h3 {
   margin-bottom: 10px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  color: #212121;
+  color: #644438;
 }
 
 @media screen and (max-width: 767px) {
@@ -574,7 +590,7 @@ p {
 
 .feature__thumb p {
   font-family: "Roboto", sans-serif;
-  color: #757575;
+  color: #644438;
 }
 
 @media screen and (max-width: 480px) {
@@ -597,7 +613,7 @@ p {
 
 .works__title {
   margin-bottom: 50px;
-  color: #212121;
+  color: #644438;
 }
 
 .works__item {
@@ -625,7 +641,7 @@ p {
   width: 100%;
   height: 70px;
   color: #f5f4fa;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: rgba(100, 68, 56, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -650,7 +666,7 @@ p {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 19px;
-  color: #757575;
+  color: #644438;
 }
 
 .team__list {
@@ -724,7 +740,7 @@ p {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #2196f3;
+  background-color: #d3a202;
   color: #ffffff;
 }
 
@@ -786,8 +802,8 @@ p {
 }
 
 .client__link:hover, .client__link:focus {
-  border-color: #2196f3;
-  color: #2196f3;
+  border-color: #d3a202;
+  color: #d3a202;
 }
 
 .client__icon {
@@ -894,7 +910,7 @@ address {
 }
 
 .footer__nav a:focus {
-  color: #2196f3;
+  color: #d3a202;
 }
 
 @media screen and (min-width: 1200px) {
@@ -957,7 +973,7 @@ address {
 }
 
 .social-link__footer:hover, .social-link__footer:focus {
-  background-color: #2196f3;
+  background-color: #d3a202;
 }
 
 .social-icon__footer {
@@ -1044,7 +1060,7 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196f3;
+  background: #d3a202;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -1068,7 +1084,7 @@ address {
 }
 
 .footer__subscribe:hover, .footer__subscribe:focus {
-  background: #188ce8;
+  background: #644438;
 }
 
 .portfolio__nav-list {
@@ -1102,14 +1118,14 @@ address {
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #212121;
+  color: #644438;
   background-color: #f5f4fa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
 .portfolio__filter:hover, .portfolio__filter:focus {
-  background-color: #2196f3;
+  background-color: #d3a202;
   color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -1187,7 +1203,7 @@ address {
   width: 100%;
   height: 100%;
   padding: 63px 24px;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: rgba(211, 162, 2, 0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1209,14 +1225,14 @@ address {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: #644438;
 }
 
 .text__card p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
+  color: #644438;
 }
 
 .backdrop {
@@ -1320,7 +1336,7 @@ address {
 
 .form-label {
   margin-bottom: 4px;
-  color: #757575;
+  color: #644438;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -1330,7 +1346,7 @@ address {
 
 .modal input:focus,
 .modal textarea:focus {
-  border-color: #2196f3;
+  border-color: #d3a202;
   outline: none;
   cursor: pointer;
 }
@@ -1344,12 +1360,12 @@ address {
 }
 
 .modal input:focus ~ svg {
-  fill: #2196f3;
+  fill: #d3a202;
   cursor: pointer;
 }
 
 .form-input:focus + .icon {
-  fill: #2196f3;
+  fill: #d3a202;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1394,7 +1410,7 @@ address {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #644438;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1405,7 +1421,7 @@ address {
 }
 
 .form-check a {
-  color: #2196f3;
+  color: #d3a202;
   text-decoration: underline;
 }
 
@@ -1434,13 +1450,13 @@ address {
   width: 16px;
   height: 15px;
   border-radius: 1px;
-  box-shadow: 0 0 0 2px #212121;
+  box-shadow: 0 0 0 2px #644438;
 }
 
 .check-input:checked + .check-box::after {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 0 0 2px #2196f3;
-  background-color: #2196f3;
+  box-shadow: 0 0 0 2px #d3a202;
+  background-color: #d3a202;
   background-image: url(../images/icons/check2.svg);
 }
 
@@ -1453,7 +1469,7 @@ address {
   max-width: 200px;
   height: 50px;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: #d3a202;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;

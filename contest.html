@@ -27,10 +27,11 @@
                     </ul>
                     <ul class="contacts">
                         <li>
-                            <a class="contacts-link" href="mailto:info@devstudio.com">
-                            <svg class="contacts-link__icon" width="16" height="12">
-                                <use href="./images/icons/symbol-defs.svg#icon-envelope"></use>
-                            </svg>info@devstudio.com</a>
+                            <a class="contacts-link" href="https://www.facebook.com/events/280397902895630">
+                                <svg class="contacts-link__icon" width="16" height="16">
+                                    <!-- <use href="./images/icons/symbol-defs.svg#icon-envelope"></use> -->
+                                    <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
+                                </svg>Ми на Facebook</a>
                         </li>
                         <li>
                             <a class="contacts-link" href="tel:+380630240050">
@@ -47,7 +48,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">Конкурс писанкарів<br>імені Галини Грицьків</h1>
-                <button class="hero__button" type="submit">Реєструйся тут</button>
+                <a href="https://forms.gle/zt3jbetxcNuVa22z8" class="hero__button">Реєструйся тут</a>
             </div>
         </section>
         <section class="feature">
@@ -77,22 +78,28 @@
                 <h2 class="works__title">Як підготуватися до конкурсу</h2>
                 <ul class="works__item">
                     <li>
-                        <div class="works__product">
-                            <img src="./images/box4.jpg" alt="box1" width= "370" height= "294">
-                            <h3 class="works__descript">Ознайомся з Умовами Конкурсу</h3>
-                        </div>
+                        <a href="./rules.html">
+                            <div class="works__product">
+                                <img src="./images/box4.jpg" alt="box1" width= "370" height= "294">
+                                <h3 class="works__descript">Ознайомся з Умовами Конкурсу</h3>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="works__product">
-                            <img src="./images/box5.jpg" alt="box2" width= "370" height= "294">
-                            <h3 class="works__descript">Дізнайся більше про писанки</h3>
-                        </div>
+                        <a href="./images/symbols.jpg">
+                            <div class="works__product">
+                                <img src="./images/box5.jpg" alt="box2" width= "370" height= "294">
+                                <h3 class="works__descript">Дізнайся більше про писанки</h3>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="works__product">
-                            <img src="./images/box6.jpg" alt="box3" width= "370" height= "294">
-                            <h3 class="works__descript">Дізнайся, як чергувати кольори</h3>
-                        </div>
+                        <a href="./colors.html">
+                            <div class="works__product">
+                                <img src="./images/box6.jpg" alt="box3" width= "370" height= "294">
+                                <h3 class="works__descript">Дізнайся, як чергувати кольори</h3>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -353,8 +360,10 @@
     </main>
     <footer>
         <div class="container footer">
+            <img class="logo-egg" src="./images/logowhite.png" alt="logo" width="50"/>
+
             <div class="footer__contacts">
-                <a class="footer__logo" href="/"><img src="./images/logo-white.png" alt="ПИСАНКОВО" width="154"/></a>
+                <a class="footer__logo" href="./index.html"><img src="./images/logo-white.png" alt="ПИСАНКОВО" width="154"/></a>
                 <address>
                     <ul class="footer__nav">
                         <li><a href="#" class="map">Чортків, вул. Гончара, 6</a></li>
@@ -376,13 +385,6 @@
                     <li class="social-item__footer">
                         <a class="social-link__footer" href="#">
                             <svg class="social-icon__footer" width="20" height="20">
-                                <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-item__footer">
-                        <a class="social-link__footer" href="#">
-                            <svg class="social-icon__footer" width="20" height="20">
                                 <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
@@ -392,6 +394,5 @@
         </div>
     </footer>
     <script src="./js/mobile.js"></script>
-    <script src="./js/form.js"></script>
 </body>
 </html>

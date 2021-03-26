@@ -11,6 +11,17 @@
   background-position: center;
   background-size: cover;
 
+  & h2 {
+    color: $accent-color;
+    opacity: 0.95;
+    transform: scale(0.95);
+  }
+  & h2:hover,
+  & h2:focus {
+    transform: scale(1.05);
+    transition: transform $duration-time, $timing-function;
+  }
+
   @media screen and (max-width: 767px) {
     background-image: linear-gradient(
         to right,

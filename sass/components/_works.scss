@@ -1,9 +1,18 @@
 .works {
-  @media screen and (max-width: 1199px) {
-    display: none;
+  // @media screen and (max-width: 1199px) {
+  //   display: none;
+  // }
+  @media screen and (min-width: 768px) {
+    .feature__item {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+    }
   }
+
   @media screen and (min-width: 1200px) {
     padding-top: 0;
+    flex-wrap: nowrap;
   }
 }
   
@@ -13,14 +22,27 @@
 }
   
 .works__item {
-  display: flex;
-}
+  display: block;
+  justify-content: center;
   
+  font-family: $main-font;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 19px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;;
+  }
+}
+
 .works__item li {
   width: 370px;
+  margin: 0 auto 30px auto;
   
   &:not(:last-child) {
-    margin-right: 30px;
+    @media screen and (min-width: 768px) {
+      margin-right: 30px;
+    }
   }
 } 
 .works__product {

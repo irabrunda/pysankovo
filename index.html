@@ -27,10 +27,11 @@
                     </ul>
                     <ul class="contacts">
                         <li>
-                            <a class="contacts-link" href="mailto:info@devstudio.com">
-                            <svg class="contacts-link__icon" width="16" height="12">
-                                <use href="./images/icons/symbol-defs.svg#icon-envelope"></use>
-                            </svg>info@devstudio.com</a>
+                            <a class="contacts-link" href="https://www.facebook.com/events/280397902895630">
+                            <svg class="contacts-link__icon" width="16" height="16">
+                                <!-- <use href="./images/icons/symbol-defs.svg#icon-envelope"></use> -->
+                                <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
+                            </svg>Ми на Facebook</a>
                         </li>
                         <li>
                             <a class="contacts-link" href="tel:+380630240050">
@@ -47,25 +48,26 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">Тижні писанки<br>у Чорткові</h1>
-                <button class="hero__button" type="submit" data-modal-open>Подія у Facebook</button>
+                <!-- <button class="hero__button" type="submit" data-modal-open>Подія у Facebook</button> -->
+                <a href="https://www.facebook.com/events/280397902895630" class="hero__button">Подія у Facebook</a>                
             </div>
         </section>
         <section class="feature">
             <div class="container">
                 <ul class="feature__item">
-                    <li class="feature__thumb antenna">
+                    <li class="feature__thumb egg">
                         <h3>Мастеркласи з писанкарства</h3>
                             <p>Пишемо писанки разом в традиційних техніках. Це арт-терапія, що тішить око, заспокоює серце і збагачує душу</p>
                     </li>
-                    <li class="feature__thumb clock">
+                    <li class="feature__thumb online">
                         <h3>Онлайн-курс "Перша писанка"</h3>
                             <p>Ми створили онлайн-курс для всіх, хто мріє написати свою першу писанку. Курс безкоштовний.</p>
                     </li>
-                    <li class="feature__thumb diagram">
+                    <li class="feature__thumb contest">
                         <h3>Конкурс писанкарів</h3>
                             <p>Конкурс присвячено імені Галини Грицьків, писанкарки та Заслуженої мешканки Чорткова</p>
                     </li>
-                    <li class="feature__thumb astronaut">
+                    <li class="feature__thumb instal">
                         <h3>Великодня арт-інсталяція</h3>
                             <p>Від 2015 року створюємо Великодні інсталяції із писанок, написаних учасниками проєкту у Чорткові</p>
                     </li>
@@ -77,22 +79,28 @@
                 <h2 class="works__title">Тижні Писанки у Чорткові з 2015 року</h2>
                 <ul class="works__item">
                     <li>
-                        <div class="works__product">
-                            <img src="./images/box1.jpg" alt="box1" width= "370" height= "294">
-                            <h3 class="works__descript">Розклад заходів у 2021</h3>
-                        </div>
+                        <a href="./schedule.html">
+                            <div class="works__product">
+                                <img src="./images/box1.jpg" alt="box1" width= "370" height= "294">
+                                <h3 class="works__descript">Розклад заходів у 2021</h3>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="works__product">
-                            <img src="./images/box2.jpg" alt="box2" width= "370" height= "294">
-                            <h3 class="works__descript">Про нас говорять</h3>
-                        </div>
+                        <a href="#">
+                            <div class="works__product">
+                                <img src="./images/box2.jpg" alt="box2" width= "370" height= "294">
+                                <h3 class="works__descript">Про нас говорять</h3>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="works__product">
-                            <img src="./images/box3.jpg" alt="box3" width= "370" height= "294">
-                            <h3 class="works__descript">Минулі Тижні Писанки</h3>
-                        </div>
+                        <a href="https://www.facebook.com/events/280397902895630/?active_tab=discussion">
+                            <div class="works__product">
+                                <img src="./images/box3.jpg" alt="box3" width= "370" height= "294">
+                                <h3 class="works__descript">Минулі Тижні Писанки</h3>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -325,7 +333,7 @@
     <footer>
         <div class="container footer">
             <div class="footer__contacts">
-                <a class="footer__logo" href="/"><img src="./images/logo-white.png" alt="ПИСАНКОВО" width="154"/></a>
+                <a class="footer__logo" href="./index.html"><img src="./images/logo-white.png" alt="ПИСАНКОВО" width="154"/></a>
                 <address>
                     <ul class="footer__nav">
                         <li><a href="#" class="map">Чортків, вул. Гончара, 6</a></li>
@@ -343,14 +351,7 @@
                                 <use href="./images/icons/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
-                    </li>
-                    <li class="social-item__footer">
-                        <a class="social-link__footer" href="#">
-                            <svg class="social-icon__footer" width="20" height="20">
-                                <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
+                    </li>            
                     <li class="social-item__footer">
                         <a class="social-link__footer" href="#">
                             <svg class="social-icon__footer" width="20" height="20">
@@ -362,7 +363,8 @@
             </div>
             <div class="footer__subscription">
                 <b class="footer__text">Реєстрація на Конкурс писанкарів</b>
-                <button type="button" class="footer__subscribe">Зареєструватися</button>
+                <a href="https://forms.gle/zt3jbetxcNuVa22z8" class="footer__subscribe">Зареєструватися</a>
+                <!-- <button type="button" class="footer__subscribe">Зареєструватися</button> -->
             </div>
         </div>
     </footer>

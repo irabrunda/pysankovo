@@ -13,7 +13,16 @@ address {
   // margin-top: 20px;
   font-style: normal;
 }
-  
+.logo-egg {
+  display: flex;
+
+  @media screen and (max-width: 767px) {
+    margin: 0 auto 20px auto;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 20px;
+  }
+}  
 .footer {
   display: flex;
   flex-direction: column;

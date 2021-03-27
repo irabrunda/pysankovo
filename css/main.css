@@ -1613,4 +1613,50 @@ address {
   background-color: #644438;
   transform: scale(1.1);
 }
+
+.colors .feature__thumb::before {
+  background-size: 50px 50px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.colors .contest-date::before {
+  background-image: url(../images/icons/egg-brown.svg);
+  background-color: #fff;
+}
+
+.colors .contest-time::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #ffbb00;
+}
+
+.colors .contest-location::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #e95925;
+}
+
+.colors .contest-age::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #000;
+}
+
+.colors .red::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #c50404;
+}
+
+.colors .blue::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #008cff;
+}
+
+.colors .green::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #00722c;
+}
+
+.colors .purple::before {
+  background-image: url(../images/icons/egg-white.svg);
+  background-color: #45009e;
+}
 /*# sourceMappingURL=main.css.map */

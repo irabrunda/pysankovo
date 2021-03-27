@@ -40,3 +40,43 @@
         transform: scale(1.1);
     };
 };
+
+.colors {
+    & .feature__thumb::before {
+        background-size: 50px 50px;
+        border-radius: 14px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    & .contest-date::before {
+        background-image: url(../images/icons/egg-brown.svg);
+        background-color: #fff;
+    }
+    & .contest-time::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: #ffbb00;
+    }
+    & .contest-location::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: #e95925;
+    }  
+    & .contest-age::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: #000;
+    }
+    & .red::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: rgb(197, 4, 4);
+    }
+    & .blue::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: #008cff;
+    }
+    & .green::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: #00722c;
+    }  
+    & .purple::before {
+        background-image: url(../images/icons/egg-white.svg);
+        background-color: #45009e;
+    }
+}

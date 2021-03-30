@@ -707,6 +707,12 @@ p {
   text-transform: uppercase;
 }
 
+.materials {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
 .team__title {
   font-family: "Roboto", sans-serif;
   color: #644438;
@@ -809,15 +815,7 @@ p {
 }
 
 .client {
-  color: #644438;
-}
-
-@media screen and (max-width: 480px) and (min-width: 768px) {
-  .client {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  display: none;
 }
 
 .client__list {
@@ -1658,5 +1656,58 @@ address {
 .colors .purple::before {
   background-image: url(../images/icons/egg-white.svg);
   background-color: #45009e;
+}
+
+.steps .step {
+  margin-bottom: 25px;
+}
+
+.steps .feature__thumb::before {
+  content: "";
+  background-size: 50px 50px;
+  border-radius: 14px;
+  background-color: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.steps .step::before {
+  background-image: url(../images/icons/egg-brown.svg);
+  transform: scale(1);
+}
+
+.steps .red::before {
+  border: #c50404 2px dotted;
+}
+
+.steps .step:hover,
+.steps .step:focus {
+  transform: scale(1.1);
+  z-index: 3;
+}
+
+.process {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #644438;
+}
+
+.process b {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.process a {
+  margin-top: 70px;
+}
+
+.process .materials {
+  transform: scale(1);
+}
+
+.process .materials:hover,
+.process .materials:focus {
+  transform: scale(1.1);
+  color: #d3a202;
 }
 /*# sourceMappingURL=main.css.map */

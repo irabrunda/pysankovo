@@ -80,3 +80,52 @@
         background-color: #45009e;
     }
 }
+
+.steps {
+    & .step {
+    margin-bottom: 25px;
+    }
+    & .feature__thumb::before {
+        content: "";
+        background-size: 50px 50px;
+        border-radius: 14px;
+        background-color: $main-bg-color;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    & .step::before {
+        background-image: url(../images/icons/egg-brown.svg);
+        transform: scale(1);
+    }
+    & .red::before {
+        border: rgb(197, 4, 4) 2px dotted;
+    }
+    & .step:hover,
+    & .step:focus {
+        transform: scale(1.1);
+        z-index: 3;
+    }
+}
+
+.process {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: $main-font;
+    color: $primary-text-color;
+
+    & b {
+        font-size: 18px;
+        line-height: 1.8;
+    };
+
+    & a {
+        margin-top: 70px;
+    }
+    .materials {
+        transform: scale(1);
+    }
+    & .materials:hover,
+    & .materials:focus {
+        transform:scale(1.1);
+        color: $accent-color;
+    }
+};

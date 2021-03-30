@@ -1,12 +1,17 @@
-.client {
-  color: $primary-text-color;
 
-  @media screen and (max-width: 480px) and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.client {
+  display: none;
 }
+
+// .client {
+//   color: $primary-text-color;
+
+//   @media screen and (max-width: 480px) and (min-width: 768px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//   }
+// }
 
 .client__list {
   display: flex;

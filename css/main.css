@@ -870,8 +870,8 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   color: #d3a202;
+  background-color: #f5f0ee;
   border: 2px solid #d3a202;
-  background: #f5f0ee;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
   transform: scale(1);
 }

@@ -13,6 +13,10 @@
   line-height: 1.2;
   margin-bottom: 10px;
   color: $primary-text-color;
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 1.2;;
+  } 
 }
   
 .team p {

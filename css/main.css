@@ -744,6 +744,13 @@ p {
   color: #644438;
 }
 
+@media screen and (min-width: 1200px) {
+  .team h3 {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
 .team p {
   font-family: "Roboto", sans-serif;
   margin-bottom: 16px;

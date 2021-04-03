@@ -656,6 +656,19 @@ p {
   }
 }
 
+.alarm-message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0 60px 0;
+  padding: 20px 15px;
+  color: #644438;
+  font-size: 24px;
+  line-height: 1.8;
+  border: 3px solid #d3a202;
+  border-radius: 4px;
+}
+
 @media screen and (min-width: 768px) {
   .works .feature__item {
     display: flex;

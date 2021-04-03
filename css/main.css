@@ -656,11 +656,15 @@ p {
   }
 }
 
+.schedule {
+  padding-top: 60px;
+}
+
 .alarm-message {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 30px 0 60px 0;
+  margin: 30px 0 30px 0;
   padding: 20px 15px;
   color: #644438;
   font-size: 24px;

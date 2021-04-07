@@ -1674,6 +1674,7 @@ address {
 }
 
 .rules {
+  padding-top: 10px;
   font-family: "Roboto", sans-serif;
   color: #644438;
 }
@@ -1699,6 +1700,19 @@ address {
 .rules b {
   font-size: 14px;
   line-height: 1.8;
+}
+
+.rules .logo-egg {
+  margin: 0 auto 40px auto;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #644438;
+}
+
+.rules .logo-egg:hover,
+.rules .logo-egg:focus {
+  transform: scale(1.1);
+  background-color: #d3a202;
 }
 
 .bottom-btn {
@@ -1813,5 +1827,22 @@ address {
 .process .materials:focus {
   transform: scale(1.1);
   color: #d3a202;
+}
+
+.process .logo-egg {
+  margin: 30px auto 40px auto;
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #644438;
+}
+
+.process .logo-egg:hover,
+.process .logo-egg:focus {
+  transform: scale(1.1);
+  background-color: #d3a202;
+}
+
+.langs {
+  margin-top: 60px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -630,6 +630,42 @@ p {
   margin-top: 50px;
 }
 
+.feature .contest-descr {
+  font-family: "Roboto", sans-serif;
+  font-size: 18;
+  line-height: 1.6;
+  color: #644438;
+}
+
+@media screen and (max-width: 767px) {
+  .feature .contest-descr {
+    display: flex;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .feature .contest-descr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+.feature .logo-egg {
+  margin: 0 auto 40px auto;
+  padding: 9px;
+  border-radius: 14px;
+  background-color: #644438;
+}
+
+.feature .logo-egg:hover,
+.feature .logo-egg:focus {
+  transform: scale(1.1);
+  background-color: #d3a202;
+}
+
 .schedule-features {
   display: flex;
   justify-content: center;

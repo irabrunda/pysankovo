@@ -660,6 +660,12 @@ p {
   padding-top: 60px;
 }
 
+.schedule .contest-btn {
+  color: #d3a202;
+  background-color: #fff;
+  border: 2px solid #d3a202;
+}
+
 .alarm-message {
   display: flex;
   justify-content: center;
